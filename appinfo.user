@@ -1,0 +1,3 @@
+[CloudMake]
+notifications=normal
+targetiOS=true

@@ -1,0 +1,100 @@
+{
+    "arcgisRuntime": 1001,
+    "capabilities": {
+        "audio": false,
+        "backgroundBluetoothCentral": false,
+        "backgroundLocation": true,
+        "beacon": false,
+        "biometricAuthentication": false,
+        "bluetooth": false,
+        "camera": false,
+        "fileSharing": false,
+        "highAccuracyLocation": true,
+        "ios": {
+            "backgroundExternalAccessory": false,
+            "externalAccessoryProtocolStrings": [
+            ]
+        },
+        "localnotification": true,
+        "location": true,
+        "microphone": false,
+        "network": true,
+        "storage": true,
+        "vibration": false
+    },
+    "deployment": {
+        "android": {
+            "packageName": ""
+        },
+        "arcgisRuntimeExtensionsLicense": "",
+        "arcgisRuntimeLicense": "runtimelite,1000,rud8903982703,none,3M2PMD17J0P1DPF44004",
+        "clientId": "",
+        "ios": {
+            "bundleId": "",
+            "codeSignIdentity": ""
+        },
+        "macos": {
+            "bundleId": "",
+            "codeSignIdentity": ""
+        },
+        "publisherName": "",
+        "shortcutName": "",
+        "uwp": {
+            "packageName": "",
+            "productID": ""
+        },
+        "winphone": {
+            "packageDisplayName": ""
+        }
+    },
+    "devicesTypes": [
+        "desktop",
+        "phone"
+    ],
+    "display": {
+        "desktop": {
+            "minimumHeight": 0,
+            "minimumWidth": 0,
+            "windowMode": "maximized"
+        },
+        "enableHighDpi": true,
+        "phone": {
+            "landscape": false,
+            "portrait": true,
+            "showStatusBar": true
+        },
+        "tablet": {
+            "landscape": false,
+            "portrait": true,
+            "showStatusBar": true
+        },
+        "windows": {
+            "renderingEngine": "default"
+        }
+    },
+    "environment": {
+    },
+    "launchUrlSchemes": [
+    ],
+    "mainFile": "TracklogApp.qml",
+    "multipleInstances": false,
+    "projectFile": "TracklogApp.qmlproject",
+    "properties": {
+        "autoRecord": true,
+        "featureServiceURL": "https://services.arcgis.com/ZN2A4THMtsVQ15wW/arcgis/rest/services/Tracklog_Premium/FeatureServer/0",
+        "titleBackgroundColor": "#8f499c",
+        "titleTextColor": "#fefdfd"
+    },
+    "resources": {
+        "appIcon": "appicon.png",
+        "launchImageBackground": "launchimage-background.png",
+        "launchImageBackgroundColor": "#eceff1",
+        "launchImageOverlay": "overlay.png"
+    },
+    "type": "app",
+    "urlScheme": "",
+    "version": {
+        "major": 1,
+        "micro": 2
+    }
+}
